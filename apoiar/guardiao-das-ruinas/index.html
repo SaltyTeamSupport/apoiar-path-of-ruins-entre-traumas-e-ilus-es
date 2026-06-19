@@ -29,18 +29,24 @@ body {
         }
     </style>
 
-    <script>
-        function copiar() {
-        async function copiarTexto(texto) {
-         try {
-         await navigator.clipboard.writeText(texto);
-          alert('Texto copiado com sucesso!');
-          } catch (erro) {
-           console.error('Falha ao copiar: ', erro);
-             
-              }
-           }
-            </script>
+        <script>
+        async function copiar() {
+            // Substitua pelo seu código Pix real abaixo
+            const textoPix = "SUA_CHAVE_PIX_AQUI"; 
+            try {
+                await navigator.clipboard.writeText(textoPix);
+                alert('Texto copiado com sucesso!');
+            } catch (erro) {
+                console.error('Falha ao copiar: ', erro);
+            }
+        }
+
+        function receberrecompensa() {
+            // Adicione a lógica do que acontece ao clicar no botão
+            alert('Envie seu comprovante para validar a recompensa!');
+        }
+    </script> 
+
 </head>
 <body>
   <div class="container">
