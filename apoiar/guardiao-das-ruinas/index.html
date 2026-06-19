@@ -43,7 +43,8 @@ body {
 
         function receberrecompensa() {
             // Adicione a lógica do que acontece ao clicar no botão
-            alert('Envie seu comprovante para validar a recompensa!');
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLSf7YDBJTf6LOLYR6kwzS422uKN_-3gnvo7RdrABh2M9dEujSQ/viewform", "_blank");
+            //alert("Obrigado pelo seu apoio ao path of ruins!");
         }
     </script> 
 
@@ -55,7 +56,10 @@ body {
       <img src="doação 1.png" alt="Guardião das ruínas" width="200" style="border-radius: 16px;">
       <p>Pix copia e cola:</p>
       <button onclick="copiar()">Pix copia e cola</button>
-      <button onclick="receberrecompensa()">Receber recompensa (É preciso comprovante pix)</button>
+    </div>
+
+    <div class="container">
+        <button onclick="receberrecompensa()">Receber recompensa! (É preciso comprovante pix)</button>
     </div>
 </body>
 </html>
